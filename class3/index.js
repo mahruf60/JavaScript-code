@@ -25,6 +25,21 @@ else{
     console.log("You cannot drive");
 }
 
+
+let ages = 12;
+if (ages > 0){
+    console.log("A valid age.");
+}
+else if (ages > 10 && ages < 15){
+    console.log("But You are a Kid.");
+}
+else if(ages > 18){
+    console.log("Not a kid.");
+}
+else{
+    console.log("Invalid Age.");
+}
+
 // ternary operator
 a = 6;
 b = 8;
